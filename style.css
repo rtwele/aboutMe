@@ -5,11 +5,19 @@ body {
 h1{
     width:50vw;
     height:10vh;
-    text-align: center;
+    margin: auto;
 }
 ul {
     text-align:center
 }
+.image {
+    max-width: 80vw;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+}
+
 @media (max-width:400px) {
     .image {
         max-width: 80vw;
